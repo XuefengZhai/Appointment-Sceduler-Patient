@@ -14,7 +14,7 @@
             android:id="@+id/f_detail"
             android:layout_width="fill_parent"
             android:layout_height="150dp"
-            android:textSize="20sp"/>
+            android:textSize="20dp"/>
         <Button
             android:id="@+id/f_cancel_apmt"
             android:layout_width="wrap_content"

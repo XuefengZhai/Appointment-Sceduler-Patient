@@ -11,7 +11,7 @@
         android:layout_height="fill_parent"
         android:orientation="vertical">
         <TextView
-            android:textSize="20sp"
+            android:textSize="20dp"
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -19,16 +19,16 @@
         <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="20sp" >
+            android:paddingTop="20dp" >
             <TableRow>
                 <TextView
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/name" />
                 <EditText
                     android:id="@+id/name"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content" />
             </TableRow>
@@ -40,31 +40,31 @@
                     android:text="@string/age" />
                 <EditText
                     android:id="@+id/age"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content" />
             </TableRow>
             <TableRow>
                 <TextView
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/sex" />
                 <EditText
                     android:id="@+id/sex"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content" />
             </TableRow>
             <TableRow>
                 <TextView
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:text="@string/insurance" />
                 <EditText
                     android:id="@+id/insurance"
-                    android:textSize="20sp"
+                    android:textSize="20dp"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content" />
             </TableRow>
@@ -74,18 +74,18 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="280sp" >
+        android:paddingTop="280dp" >
         <Button
             android:id="@+id/info_cancel"
-            android:textSize="20sp"
+            android:textSize="20dp"
             android:layout_height="wrap_content"
-            android:layout_width="150sp"
+            android:layout_width="150dp"
             android:text="@string/cancel"/>
         <Button
             android:id="@+id/info_confirm"
-            android:textSize="20sp"
+            android:textSize="20dp"
             android:layout_height="wrap_content"
-            android:layout_width="150sp"
+            android:layout_width="150dp"
             android:text="@string/confirm"/>
     </LinearLayout>
     <LinearLayout
