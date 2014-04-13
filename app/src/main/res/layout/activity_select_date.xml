@@ -61,8 +61,8 @@
         android:onClick="future"
         android:text="Future" />
 
-    <Spinner
-        android:id="@+id/spinner2"
+    <dpinner
+        android:id="@+id/dpinner2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/confirm"
