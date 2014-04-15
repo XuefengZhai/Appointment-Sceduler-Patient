@@ -11,7 +11,7 @@
     <string name="doc">Documents</string>
     <string name="doc_title">Document Name - Type - Date Time</string>
     <string name="back_to_appointment">Back To Appointment</string>
-    <string name="info">Personal Profile</string>
+    <string name="info_profile">Personal Profile</string>
     <string name="name">Name</string>
     <string name="age">Age</string>
     <string name="sex">Sex</string>
@@ -23,5 +23,32 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_future_detail">FutureDetailActivity</string>
     <string name="title_activity_info">InfoActivity</string>
+    <string name="appointment_scheduler">Appointment Scheduler</string>
+    <string name="user_name">User Name</string>
+    <string name="log_in">Log In</string>
+    <string name="patient_log_in">Patient Log In</string>
+    <string name="password">Password</string>
+    <string name="select_date_and_time">Select Date and Time</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="new">New</string>
+    <string name="future">Future</string>
+    <string name="past">Past</string>
+    <string name="info">Info</string>
+    <string name="select_doctor">Select Doctor</string>
+    <string name="select_department">Select Department</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="other_info">Other info</string>
+    <string name="select_hospitals_manually">Select Hospitals Manually</string>
+    <string name="manully_select">Manully Select</string>
+    <string name="choose_distance">Choose Distance</string>
+    <string name="near_hospitals">Near Hospitals</string>
+
+
+
+
+
+
 
 </resources>

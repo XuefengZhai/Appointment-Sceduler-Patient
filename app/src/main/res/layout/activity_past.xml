@@ -25,7 +25,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
         <Button
             android:id="@+id/newTab"
             android:layout_width="wrap_content"

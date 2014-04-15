@@ -38,25 +38,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="newTab"
-            android:text="New" />
+            android:text="@string/new" />
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="info"
-            android:text="Info" />
+            android:onClick="future"
+            android:text="@string/future" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="past"
-            android:text="Past" />
+            android:text="@string/past" />
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="future"
-            android:text="Future" />
+            android:onClick="info"
+            android:text="@string/info" />
     </LinearLayout>
 </RelativeLayout>

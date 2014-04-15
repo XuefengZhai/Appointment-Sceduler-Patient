@@ -1,21 +1,11 @@
-package com.cmu.apointmentscedulerpatient.app;
+package com.cmu.apointmentscedulerpatient.ws;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
-import android.widget.ListView;
-import android.widget.SimpleAdapter;
 
 
 public class DocumentActivity extends ActionBarActivity {

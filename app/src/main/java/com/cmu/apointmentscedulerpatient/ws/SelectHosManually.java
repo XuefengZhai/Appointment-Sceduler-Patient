@@ -1,4 +1,4 @@
-package com.cmu.apointmentscedulerpatient.app;
+package com.cmu.apointmentscedulerpatient.ws;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;

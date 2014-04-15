@@ -1,4 +1,4 @@
-package com.cmu.apointmentscedulerpatient.app;
+package com.cmu.apointmentscedulerpatient.ws;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -8,12 +8,12 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-public class SelectDate extends ActionBarActivity {
+public class LogIn extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_select_date);
+        setContentView(R.layout.activity_log_in);
     }
 
 
@@ -21,7 +21,7 @@ public class SelectDate extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.select_date, menu);
+        getMenuInflater().inflate(R.menu.log_in, menu);
         return true;
     }
 
@@ -36,32 +36,11 @@ public class SelectDate extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    public void confirm(View view) {
+
+    public void logIn(View view) {
         Intent intent = new Intent(this, SelectHospital.class);
         startActivity(intent);
     }
 
-    public void newTab(View view) {
-        Intent intent = new Intent(this, SelectHospital.class);
-        startActivity(intent);
-    }
-
-    public void past(View view){
-        Intent intent = new Intent(this, PastActivity.class);
-        startActivity(intent);
-
-    }
-
-    public void future(View view){
-        Intent intent = new Intent(this, FutureActivity.class);
-        startActivity(intent);
-
-    }
-
-    public void info(View view){
-        Intent intent = new Intent(this, InfoActivity.class);
-        startActivity(intent);
-
-    }
 
 }

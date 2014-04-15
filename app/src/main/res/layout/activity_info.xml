@@ -15,7 +15,7 @@
             android:layout_gravity="center"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/info" />
+            android:text="@string/info_profile" />
         <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="280dp" >
+        android:paddingTop="300dp" >
         <Button
             android:id="@+id/info_cancel"
             android:textSize="20dp"
@@ -92,31 +92,32 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_alignParentBottom= "true">
+        android:layout_alignParentBottom= "true"
+        android:gravity="center">
         <Button
             android:id="@+id/newTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="newTab"
-            android:text="New" />
+            android:text="@string/new" />
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="future"
-            android:text="Future" />
+            android:text="@string/future" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="past"
-            android:text="Past" />
+            android:text="@string/past" />
         <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="info"
-            android:text="Info" />
+            android:text="@string/info" />
     </LinearLayout>
 </RelativeLayout>
